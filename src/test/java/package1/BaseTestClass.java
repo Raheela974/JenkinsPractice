@@ -11,7 +11,7 @@ public class BaseTestClass {
 	
 	@Test
 	public void testMethod() {
-		//test comments
+		//test comment
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://rahulshettyacademy.com/locatorspractice/");
